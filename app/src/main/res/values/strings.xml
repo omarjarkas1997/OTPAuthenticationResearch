@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Attempt4OTPAuthentication</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign In</string>
+    <string name="phone_auth">Phone Auth</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="_continue">Continue</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="register_to_continue">Register to Continue</string>
+    <string name="university_of_queensland">University of Queensland</string>
+    <string name="choose_one_of_the_following">Choose one of the Following</string>
+    <string name="network_unavailable_message">The Network is unavailable. Please make sure you\'re connected to the Internet.</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="sign_in_to_continue">Sign in to Continue</string>
+    <string name="login_to_continue">Login to Continue</string>
+</resources>

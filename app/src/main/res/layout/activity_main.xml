@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/university_of_queensland"
+        android:textColor="#000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/sub_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/choose_one_of_the_following"
+        android:textColor="#969eab"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/register"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sub_name"
+        android:layout_marginTop="70dp"
+        app:cardBackgroundColor="#f56258"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="@string/register" /></androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/signIn"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#f56258"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/sign_in"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/phoneAuthButton"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/signIn"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#f56258"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="@string/phone_auth" /></androidx.cardview.widget.CardView>
+
+</RelativeLayout>
